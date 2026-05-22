@@ -1,0 +1,54 @@
+# CheXpert Kaggle Final Project - Focal Loss Configuration
+# Copy this file into configs/ and run with train_chexpert_multilabel_focal.py
+
+project_dir: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/chexpert_kaggle_final_project"
+archive_root: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive"
+train_csv: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive/train.csv"
+valid_csv: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive/valid.csv"
+
+strategy: "kaggle80k_hybrid2_frontal"
+
+target_labels:
+  - "Atelectasis"
+  - "Cardiomegaly"
+  - "Consolidation"
+  - "Edema"
+  - "Pleural Effusion"
+
+view_filter: "Frontal"
+uncertainty_strategy: "hybrid2"
+
+target_train_rows: 80000
+target_val_rows: 10000
+target_test_rows: 10000
+seed: 42
+
+img_size: 320
+batch_size: 8
+num_workers: 0
+epochs: 35
+patience: 6
+freeze_epochs: 3
+
+head_lr: 0.0003
+backbone_lr: 0.00001
+head_lr_finetune: 0.0001
+weight_decay: 0.0001
+dropout: 0.40
+
+# Loss
+loss_name: "focal"
+focal_gamma: 2.0
+focal_alpha: null
+
+# Still keep sqrt pos_weight; focal loss will focus on hard cases.
+pos_weight_mode: "sqrt"
+pos_weight_cap: 4.0
+use_amp: true
+use_weighted_sampler: false
+
+horizontal_flip_p: 0.20
+rotation_degrees: 7
+translate: 0.03
+scale_min: 0.97
+scale_max: 1.03

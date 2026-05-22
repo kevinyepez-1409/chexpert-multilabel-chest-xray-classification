@@ -1,0 +1,26 @@
+[
+  {
+    "strategy": "kaggle80k_hybrid2_lsr_frontal",
+    "tag": "convnext_tiny_kaggle80k_320_lsr",
+    "threshold": "0.5",
+    "macro_auc_roc": 0.8076320157247032,
+    "macro_auc_pr": 0.5472173689730897,
+    "macro_f1": 0.5339461697664933,
+    "macro_recall": 0.575734476875018,
+    "macro_precision": 0.5137399877286926,
+    "macro_specificity": 0.8315473181119483,
+    "macro_accuracy": 0.8053799999999999
+  },
+  {
+    "strategy": "kaggle80k_hybrid2_lsr_frontal",
+    "tag": "convnext_tiny_kaggle80k_320_lsr",
+    "threshold": "optimized_on_validation",
+    "macro_auc_roc": 0.8076320157247032,
+    "macro_auc_pr": 0.5472173689730897,
+    "macro_f1": 0.5521803030872116,
+    "macro_recall": 0.7005168597707188,
+    "macro_precision": 0.46417688989793343,
+    "macro_specificity": 0.7406976865698753,
+    "macro_accuracy": 0.7637400000000001
+  }
+]

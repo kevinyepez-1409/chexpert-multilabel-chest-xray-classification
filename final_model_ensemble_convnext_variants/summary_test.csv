@@ -1,0 +1,3 @@
+threshold,macro_auc_roc,macro_auc_pr,macro_f1,macro_precision,macro_recall,macro_specificity,models
+0.5,0.8101073660172453,0.5511181245999736,0.5349121391341279,0.5168027955421622,0.5822438576623178,0.829625556319819,convnext_tiny_kaggle80k_320 + convnext_tiny_kaggle80k_320_reg_v2 + convnext_tiny_kaggle80k_320_focal_g2 + convnext_tiny_kaggle80k_320_lsr
+optimized_on_validation,0.8101073660172453,0.5511181245999736,0.5547683912564962,0.47218454507425794,0.7094026772511969,0.7386882633267225,convnext_tiny_kaggle80k_320 + convnext_tiny_kaggle80k_320_reg_v2 + convnext_tiny_kaggle80k_320_focal_g2 + convnext_tiny_kaggle80k_320_lsr

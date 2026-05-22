@@ -1,0 +1,51 @@
+sample_index,label,probability,threshold,true_label,image_path
+9448,Atelectasis,0.8718862533569336,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient56883\study1\view1_frontal.jpg
+1059,Atelectasis,0.8585193753242493,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient05773\study1\view1_frontal.jpg
+5420,Atelectasis,0.848352313041687,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient32015\study2\view1_frontal.jpg
+6942,Atelectasis,0.8319457769393921,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient38815\study5\view1_frontal.jpg
+5836,Atelectasis,0.8294233083724976,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient34422\study1\view1_frontal.jpg
+1956,Atelectasis,0.8193559646606445,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient11168\study1\view1_frontal.jpg
+6976,Atelectasis,0.8170005679130554,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient39008\study2\view1_frontal.jpg
+4548,Atelectasis,0.8153406381607056,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26938\study1\view1_frontal.jpg
+191,Atelectasis,0.8139365911483765,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient00994\study2\view1_frontal.jpg
+8194,Atelectasis,0.8133217692375183,0.34,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient44862\study1\view1_frontal.jpg
+6311,Cardiomegaly,0.9953437447547913,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient36112\study2\view1_frontal.jpg
+119,Cardiomegaly,0.9946126937866211,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient00826\study1\view1_frontal.jpg
+4543,Cardiomegaly,0.9896065592765808,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26895\study2\view1_frontal.jpg
+6314,Cardiomegaly,0.989327073097229,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient36112\study1\view1_frontal.jpg
+4901,Cardiomegaly,0.9844986796379089,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28702\study1\view1_frontal.jpg
+8410,Cardiomegaly,0.9833844900131226,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient46434\study2\view1_frontal.jpg
+7276,Cardiomegaly,0.9831609129905701,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient39992\study2\view1_frontal.jpg
+126,Cardiomegaly,0.9827650189399719,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient00826\study6\view1_frontal.jpg
+9452,Cardiomegaly,0.9820398688316345,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient56899\study1\view1_frontal.jpg
+7284,Cardiomegaly,0.98142009973526,0.45000000000000007,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient39992\study10\view1_frontal.jpg
+4328,Consolidation,0.9471144676208496,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26115\study12\view1_frontal.jpg
+4331,Consolidation,0.9192530512809753,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26115\study10\view1_frontal.jpg
+4330,Consolidation,0.8973959684371948,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26115\study13\view1_frontal.jpg
+7414,Consolidation,0.867158055305481,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient40486\study8\view1_frontal.jpg
+4333,Consolidation,0.854445219039917,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient26115\study11\view1_frontal.jpg
+7417,Consolidation,0.8140237331390381,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient40486\study7\view1_frontal.jpg
+6884,Consolidation,0.8092060685157776,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient38455\study1\view1_frontal.jpg
+6824,Consolidation,0.7911041975021362,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient38231\study3\view1_frontal.jpg
+6218,Consolidation,0.7907182574272156,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient35842\study8\view1_frontal.jpg
+7416,Consolidation,0.7617062926292419,0.35000000000000003,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient40486\study9\view1_frontal.jpg
+7299,Edema,0.9828133583068848,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient40092\study1\view1_frontal.jpg
+7867,Edema,0.9779537916183472,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient42639\study2\view1_frontal.jpg
+4846,Edema,0.9744147658348083,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study44\view1_frontal.jpg
+4824,Edema,0.9727060198783875,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study40\view1_frontal.jpg
+4856,Edema,0.970843493938446,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study10\view1_frontal.jpg
+965,Edema,0.970461368560791,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient04990\study4\view1_frontal.jpg
+4850,Edema,0.9700154066085815,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study51\view1_frontal.jpg
+4861,Edema,0.9697623252868652,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study43\view1_frontal.jpg
+8154,Edema,0.9691389799118042,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient44319\study1\view1_frontal.jpg
+4816,Edema,0.9675114750862122,0.4000000000000001,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient28479\study31\view1_frontal.jpg
+16,Pleural Effusion,0.9970605969429016,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient00134\study1\view1_frontal.jpg
+7060,Pleural Effusion,0.9962975382804871,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient39226\study5\view1_frontal.jpg
+6384,Pleural Effusion,0.9962582588195801,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient36226\study4\view1_frontal.jpg
+4226,Pleural Effusion,0.9956739544868469,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient25432\study1\view1_frontal.jpg
+5974,Pleural Effusion,0.9954425096511841,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient34945\study6\view1_frontal.jpg
+2286,Pleural Effusion,0.9953107237815857,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient13248\study5\view1_frontal.jpg
+5893,Pleural Effusion,0.9941281080245972,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient34722\study13\view1_frontal.jpg
+398,Pleural Effusion,0.9935797452926636,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient02254\study1\view1_frontal.jpg
+313,Pleural Effusion,0.9934480786323547,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient01787\study2\view1_frontal.jpg
+2032,Pleural Effusion,0.9934119582176208,0.5600000000000002,1,C:\Users\User\Documents\BIOMEDICINA\Noveno\Redes Neuronales\archive\train\patient11983\study1\view1_frontal.jpg

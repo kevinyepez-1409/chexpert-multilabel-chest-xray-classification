@@ -1,0 +1,6 @@
+label,probability,threshold,prediction,true_label
+Edema,0.7345812,0.4000000000000001,True,1
+Pleural Effusion,0.6786997,0.5600000000000002,True,0
+Atelectasis,0.6102652,0.34,True,0
+Consolidation,0.23990077,0.35000000000000003,False,0
+Cardiomegaly,0.15541866,0.45000000000000007,False,0

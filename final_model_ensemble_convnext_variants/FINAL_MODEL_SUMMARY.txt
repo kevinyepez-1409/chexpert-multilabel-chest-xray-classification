@@ -1,0 +1,49 @@
+FINAL SELECTED MODEL - CHEXPERT PROJECT
+
+Model:
+ConvNeXt-Tiny variants ensemble
+
+Components:
+1. ConvNeXt-Tiny baseline
+2. ConvNeXt-Tiny regularized fine-tuning
+3. ConvNeXt-Tiny with Focal Loss
+4. ConvNeXt-Tiny with Label Smoothing Regularization for uncertainty labels
+
+Dataset:
+Kaggle CheXpert-v1.0-small
+
+Task:
+Multi-label classification of frontal chest X-rays.
+
+Labels:
+- Atelectasis
+- Cardiomegaly
+- Consolidation
+- Edema
+- Pleural Effusion
+
+Split:
+- Train: 80,008 frontal images
+- Validation: 10,017 frontal images
+- Test: 10,000 frontal images
+- Patient overlap: 0
+
+Final ensemble results:
+Threshold 0.5:
+- Macro AUC-ROC: 0.810107
+- Macro AUC-PR: 0.551118
+- Macro F1: 0.534912
+- Macro Precision: 0.516803
+- Macro Recall: 0.582244
+- Macro Specificity: 0.829626
+
+Optimized thresholds:
+- Macro AUC-ROC: 0.810107
+- Macro AUC-PR: 0.551118
+- Macro F1: 0.554768
+- Macro Precision: 0.472185
+- Macro Recall: 0.709403
+- Macro Specificity: 0.738688
+
+Note:
+The ensemble does not generate a single .pt file. It combines the predicted probabilities of four ConvNeXt-Tiny models. The individual checkpoints are stored in the checkpoints folder.

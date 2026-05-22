@@ -1,0 +1,6 @@
+
+# Large model checkpoints are stored externally in Google Drive
+*.pt
+*.pth
+*.h5
+*.ckpt

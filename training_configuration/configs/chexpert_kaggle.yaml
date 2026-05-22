@@ -1,0 +1,72 @@
+# CheXpert Kaggle Final Project Configuration
+# Edit the Windows paths if your dataset is located elsewhere.
+
+project_dir: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/chexpert_kaggle_final_project"
+
+# Kaggle extraction root.
+# Expected structure:
+#   archive/train.csv
+#   archive/valid.csv
+#   archive/train/patient00001/study1/view1_frontal.jpg
+#   archive/valid/patient64541/study1/view1_frontal.jpg
+archive_root: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive"
+train_csv: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive/train.csv"
+valid_csv: "C:/Users/User/Documents/BIOMEDICINA/Noveno/Redes Neuronales/archive/valid.csv"
+
+# The strategy name defines the filenames:
+# local_ready/train_<strategy>_local.csv
+# local_ready/val_<strategy>_local.csv
+# local_ready/test_<strategy>_local.csv
+strategy: "kaggle80k_hybrid2_frontal"
+
+# Labels used in the project. These are the same clinical labels used in your exploratory experiments.
+target_labels:
+  - "Atelectasis"
+  - "Cardiomegaly"
+  - "Consolidation"
+  - "Edema"
+  - "Pleural Effusion"
+
+# View handling:
+# Use "Frontal" for the first official experiment.
+# Reason: not all studies have lateral views; frontal-only keeps a consistent input distribution.
+view_filter: "Frontal"  # Options: "Frontal", "Lateral", "all"
+
+# Uncertainty strategy.
+# hybrid2 default used here:
+#   Atelectasis: uncertain (-1) -> 1
+#   Edema: uncertain (-1) -> 1
+#   Cardiomegaly, Consolidation, Pleural Effusion: uncertain (-1) -> 0
+uncertainty_strategy: "hybrid2"
+
+# Patient-wise split targets. The exact number can be slightly above target because patients are indivisible.
+target_train_rows: 80000
+target_val_rows: 10000
+target_test_rows: 10000
+seed: 42
+
+# Training parameters
+img_size: 320
+batch_size: 8
+num_workers: 0
+epochs: 35
+patience: 6
+freeze_epochs: 3
+
+head_lr: 0.0003
+backbone_lr: 0.00001
+head_lr_finetune: 0.0001
+weight_decay: 0.0001
+dropout: 0.40
+
+pos_weight_mode: "sqrt"   # none, standard, sqrt, capped
+pos_weight_cap: 4.0
+use_amp: true
+use_weighted_sampler: false
+
+# Data augmentation
+horizontal_flip_p: 0.20
+rotation_degrees: 7
+translate: 0.03
+scale_min: 0.97
+scale_max: 1.03

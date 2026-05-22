@@ -1,0 +1,6 @@
+label,tp,fp,tn,fn
+Atelectasis,2761,3788,3002,449
+Cardiomegaly,777,949,7888,386
+Consolidation,248,1207,8112,433
+Edema,2524,1715,5044,717
+Pleural Effusion,3255,1509,4576,660
